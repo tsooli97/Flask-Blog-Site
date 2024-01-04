@@ -1,0 +1,30 @@
+<!-- admin_control.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-3">
+    <h2>Admin Control Panel</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in users %}
+            <tr>
+                <td>{{ user.email }}</td>
+                <td>
+                    {% if not user.is_admin %}
+                    <a href="{{ url_for('toggle_blacklist', user_id=user.id) }}" class="btn btn-sm {{ 'btn-success' if user.is_blacklisted else 'btn-warning' }}">
+                        {{ 'Unblock' if user.is_blacklisted else 'Block' }}
+                    </a>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

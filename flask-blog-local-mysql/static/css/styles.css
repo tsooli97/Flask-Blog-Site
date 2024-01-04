@@ -1,0 +1,95 @@
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.img-title-margin {
+    margin-top: 10px; /* Adjust this value as needed */
+}
+
+.card-title, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+}
+
+
+.card-text, p, li, span, div {
+    font-family: 'Roboto', sans-serif;
+}
+
+.admin-controls {
+    margin-top: 1vh;
+}
+
+.post-container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post-title {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+}
+
+.post-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.aspect-ratio-box {
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.aspect-ratio-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-actions .btn {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+}
+
+.comments-section {
+    border-top: 2px solid #eee;
+}
+
+.comments-section .comment {
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.add-comment-form {
+    margin-top: 2rem;
+}
+
+.error-page, about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
