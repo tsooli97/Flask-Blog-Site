@@ -6,7 +6,7 @@
 
 ## Features
 ### User Authentication: 
-Enables users to register, log in, comment on blog posts, and log out. <br><br>
+Enables users to register, log in, comment on blog posts, and log out. Regular users also have the option to delete their own comments.<br><br>
 <img src="https://i.imgur.com/SR7SvKy.png" alt="Register screen"> <br><br>
 <img src="https://i.imgur.com/8WK5MKD.png" alt="Login screen"> <br><br>
 <img src="https://i.imgur.com/55hxdOY.png" alt="Comment screen"> <br><br>
