@@ -52,6 +52,7 @@ You can run the project locally, in which case you get to try it from the perspe
 ## Installation
 - Download the project files .zip or clone the repository to your local machine with the following command (requires Git to be installed): <br>
 `git clone https://github.com/tsooli97/Flask-Blog-Site.git`
+- I highly recommend selecting **flask-blog-local-mysql** as your local directory for testing and usage, because it should work smoothly and as intented, just by installing the necessary packages
 - Navigate to your project directory by using the command: `cd path/to/your/project`
 - Create a virtual environment with the command: `python -m venv <env_name>`
 - After creating the environment, activate it with the command: `<env_name>\Scripts\activate`
