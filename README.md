@@ -33,10 +33,9 @@ The application is styled with Bootstrap4, making it responsive and accessible o
 ## Requirements
 - Python 3.x
 - Flask and other dependencies as listed in requirements.txt <br>
-Install using `
   
 ## Usage
-You can either try the web application from the standpoint of a normal user on the website:
+You can either try the web application as a normal user on the website:
 https://tsooli97-flask-blog.onrender.com/ <br><br>
 OR <br><br>
 You can run the project locally, in which case you get to try it from the perspective of both an admin and a normal user. To run the project locally:
