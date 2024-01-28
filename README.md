@@ -1,12 +1,12 @@
 # My Flask Blog
 <img src="https://i.imgur.com/5G1pD7j.png" alt="Image of blog screen">
 
-#### This Flask blog project is a web application where users can read and create blog posts, and comment on them. It's built using Flask, which is a lightweight WSGI web application framework. The blog features user authentication, post creation and admin functionalities. 
+#### This Flask blog project is a web application where users can read and create blog posts, and comment on them. It's built using Flask, which is a lightweight WSGI web application framework. The blog features user authentication, post creation and basic admin function, and leverages PostgreSQL for its database functionalities. 
 ### You can check out the live website here: https://tsooli97-flask-blog.onrender.com/ 
 
 <br>
 
-(**NOTE**: Sometimes the website isn't immediately accessible because the instance will spin down after certain period of inactivity, due to the free hosting plan that I've chosen for the project. The website usually comes back up after a couple of page refreshes and a little bit of waiting, to allow the server instance to start up again. Sorry for the inconvenience!)
+(**NOTE**: Sometimes the website isn't immediately accessible due to the instance spinning down after certain period of inactivity, because of the free hosting plan that I've chosen for the project. The website usually comes back up after a couple of page refreshes and a little bit of waiting, to allow the server instance to start up again. Sorry for the inconvenience!)
 
 ## Features
 ### User Authentication: 
